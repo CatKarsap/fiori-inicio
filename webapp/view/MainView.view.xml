@@ -1,7 +1,9 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="logaligroup.invoices.controller.MainView" displayBlock="true">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Label text="Hello World" width="100%" id="label0"/>
-        </content>
-    </Page>
-</mvc:View>
+            <Panel id="Selectionscreen" headerText="{i18n>Selectionscreen}">
+                <Label id="labelshipname" labelFor="shipname" text="{i18n>shipname}" class="sapUiSmallMargin"/>
+                <Input id="shipname" width="200px" class="sapUiSmallMarginEnd"/>
+                <Label id="labelcountry" text="{i18n>country}" class="sapUiSmallMargin"/>
+        <content>
+<mvc:View>
